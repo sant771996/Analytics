@@ -1,0 +1,189 @@
+@import url("../CSS/root.css");
+
+.top-nav {
+  background-color: black;
+  color: #fff;
+  text-align: right;
+  font-size: 18px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.side-bar {
+  width: 350px;
+  height: 100vh;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: 80px 0;
+}
+.side-bartop {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.person-icon {
+  font-size: 80px;
+  padding-left: 20px;
+}
+
+.person-details {
+  padding: 20px 30px;
+}
+
+.person-details ion-icon {
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.dashboard h3 {
+  padding: 30px;
+}
+.dashboard-group {
+  gap: 10px;
+  padding: 10px 30px;
+}
+
+.dashboard-group:hover {
+  background-color: blue;
+}
+
+.main-content {
+  width: calc(100% - 350px);
+  height: 100%;
+  background-color: aquamarine;
+  margin-left: auto;
+  padding: 80px 30px;
+}
+
+.dash {
+  gap: 10px;
+  font-size: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.dash ion-icon {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.messages {
+  gap: 40px;
+  background-color: rgb(199, 103, 103);
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.messages ion-icon {
+  font-size: 60px;
+}
+
+.messages p {
+  padding-right: 70px;
+}
+.outline {
+  gap: 40px;
+  background-color: blue;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+.outline ion-icon {
+  font-size: 60px;
+}
+.outline p {
+  padding-right: 70px;
+}
+
+.map {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#feed {
+  margin-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+}
+table {
+  width: 100%;
+  margin-top: 30px;
+}
+
+table td {
+  padding: 40px 0px;
+}
+.feeds {
+  margin-top: 40px;
+}
+.feed-groups li {
+  /* margin-top: 40px; */
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.feed-groups li:last-child {
+  padding-left: 200px;
+}
+
+.general {
+  padding: 40px 0;
+}
+
+.visit {
+  width: 100%;
+  background-color: grey;
+  padding: 10px;
+}
+
+.country {
+}
+
+tr:nth-child(odd) {
+  background-color: #7fcece;
+}
+
+.country-more {
+  margin-top: 30px;
+}
+.btn-country {
+  padding: 10px;
+  font-size: 20px;
+}
+.btn-country ion-icon {
+  padding: 10px 0 0;
+}
+
+new-visitor {
+  display: block;
+  width: 100%;
+}
+
+.grey-area {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  position: relative;
+}
+
+.green-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: green;
+}
+
+.green-area span {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
