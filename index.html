@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="CSS/bootstrap.css" type="text/css"/>
 </head>
 <body>
-    <section class="top-nav">
+    <nav class="top-nav">
         <p>Logo</p>
-    </section>
+    </nav>
 
 <div class="side-bar">
 <div class="side-bartop">
@@ -54,11 +54,11 @@
 </div>
 <!-- end side bar -->
 
-<div class="main-content">
+<main class="main-content">
     <div class="d-flex dash">
     <ion-icon name="speedometer-outline"></ion-icon>
     <p> My Dashboard</p>
-</div>
+    </div>
 
 <div class="row">
 <div class="col-lg-3">
@@ -100,8 +100,8 @@
 </div>
 </div>
 <div class="row">
-<div class="col-lg-12">
-    <div class="d-flex">
+<div class="col-lg-4">
+
     <div class="map">
        <p>Regions</p>
        <img src="images/region.jpg" alt="map">
@@ -138,41 +138,39 @@
 </ul>
 </div>
 </div> -->
-
-<table class="table">
-    <tbody>
-        <tr>
-            <td><ion-icon name="information-circle-outline"></ion-icon> </td>
-            <td>New record, Over go views</td>
-            <td>10 mins</td>
-
-        </tr>
-    </tbody>
-</table>
+</div>
+<div class="col-lg-8">
+    <table class="table mt-5">
+        <tbody>
+            <tr>
+                <td><ion-icon name="information-circle-outline"></ion-icon> </td>
+                <td>New record, Over go views</td>
+                <td>10 mins</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 </div>
 </div>
 
 </div>
 <div class="general">
-    <h4>General Stats  </h4>
+    <h4>General Stats</h4>
 </div>
 <new-visitor>
-    <h5>New visitors</h5>
-<div class="grey-area">
-    <div class="green-area">
-        <span>25%</span>
+        <h5>New visitors</h5>
+    <div class="grey-area">
+        <div class="green-area">
+            <span>25%</span>
+        </div>
     </div>
-</div>
 
 </new-visitor>
-
 
 <p>New users</p>
 <p class="visit">0</p>
 <p>Bounce rate</p>
 <p class="visit">0</p>
-
-</div>
 <div class="country">
     <h5>Countries</h5>
     <table>
@@ -206,13 +204,8 @@
 </div>
 </div>
 </div>
-
-
-
 </div>
-
-
-</div>
+</main>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
